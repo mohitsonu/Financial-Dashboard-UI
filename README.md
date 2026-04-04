@@ -19,7 +19,7 @@
 
 ## 🔗 Live Demo
 
-[View Dashboard →](https://financial-dashboard-ui-five.vercel.app)
+[View Dashboard →](https://financial-dashboard-ui-one.vercel.app/)
 
 ---
 
