@@ -1,0 +1,130 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 28px;
+}
+
+.summaryCard {
+  position: relative;
+  overflow: hidden;
+}
+
+.summaryCard::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  opacity: 0.08;
+  transform: translate(20px, -20px);
+}
+
+.cardIcon {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.purple .cardIcon {
+  background: var(--accent-light);
+  color: var(--accent);
+}
+.purple::after { background: var(--accent); }
+
+.green .cardIcon {
+  background: var(--success-bg);
+  color: var(--success);
+}
+.green::after { background: var(--success); }
+
+.orange .cardIcon {
+  background: var(--warning-bg);
+  color: #E67E22;
+}
+.orange::after { background: #E67E22; }
+
+.blue .cardIcon {
+  background: rgba(116, 185, 255, 0.15);
+  color: #74B9FF;
+}
+.blue::after { background: #74B9FF; }
+
+.cardLabel {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.cardValue {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--text-primary);
+  letter-spacing: -0.5px;
+}
+
+.cardChange {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 8px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.positive { color: var(--success); }
+.negative { color: var(--danger); }
+
+@media (max-width: 1100px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 540px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+
+  .summaryCard {
+    padding: 14px !important;
+  }
+
+  .cardIcon {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .cardIcon svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .cardLabel {
+    font-size: 11px;
+    margin-bottom: 4px;
+  }
+
+  .cardValue {
+    font-size: 16px;
+    letter-spacing: -0.3px;
+  }
+
+  .cardChange {
+    font-size: 10px;
+    margin-top: 4px;
+  }
+}

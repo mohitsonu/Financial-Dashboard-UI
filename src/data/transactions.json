@@ -1,0 +1,162 @@
+[
+  {
+    "id": "txn_001",
+    "fundName": "Client Invoice - TechNova Solutions",
+    "type": "Invoice",
+    "date": "2026-04-02",
+    "amount": 185000,
+    "status": "processing"
+  },
+  {
+    "id": "txn_002",
+    "fundName": "AWS Monthly - Cloud Infrastructure",
+    "type": "Recurring",
+    "date": "2026-04-01",
+    "amount": 78500,
+    "status": "pending"
+  },
+  {
+    "id": "txn_003",
+    "fundName": "Salary Disbursement - March 2026",
+    "type": "Payout",
+    "date": "2026-03-28",
+    "amount": 850000,
+    "status": "completed"
+  },
+  {
+    "id": "txn_004",
+    "fundName": "Client Invoice - FinEdge Capital",
+    "type": "Invoice",
+    "date": "2026-03-25",
+    "amount": 320000,
+    "status": "completed"
+  },
+  {
+    "id": "txn_005",
+    "fundName": "Google Workspace - SaaS Subscription",
+    "type": "Recurring",
+    "date": "2026-03-22",
+    "amount": 24500,
+    "status": "completed"
+  },
+  {
+    "id": "txn_006",
+    "fundName": "WeWork Co-working - Office Rent",
+    "type": "Recurring",
+    "date": "2026-03-20",
+    "amount": 175000,
+    "status": "completed"
+  },
+  {
+    "id": "txn_007",
+    "fundName": "Client Invoice - MedAssist Healthcare",
+    "type": "Invoice",
+    "date": "2026-03-18",
+    "amount": 245000,
+    "status": "completed"
+  },
+  {
+    "id": "txn_008",
+    "fundName": "Meta Ads - Digital Marketing",
+    "type": "Payout",
+    "date": "2026-03-15",
+    "amount": 95000,
+    "status": "completed"
+  },
+  {
+    "id": "txn_009",
+    "fundName": "Figma Enterprise - Design Tool",
+    "type": "Recurring",
+    "date": "2026-03-12",
+    "amount": 18200,
+    "status": "completed"
+  },
+  {
+    "id": "txn_010",
+    "fundName": "GST Payment - Q4 FY26",
+    "type": "Payout",
+    "date": "2026-03-10",
+    "amount": 142000,
+    "status": "completed"
+  },
+  {
+    "id": "txn_011",
+    "fundName": "Client Invoice - Lendwise Finance",
+    "type": "Invoice",
+    "date": "2026-03-05",
+    "amount": 410000,
+    "status": "completed"
+  },
+  {
+    "id": "txn_012",
+    "fundName": "Razorpay Settlement - Feb Collections",
+    "type": "Invoice",
+    "date": "2026-03-01",
+    "amount": 156000,
+    "status": "completed"
+  },
+  {
+    "id": "txn_013",
+    "fundName": "Salary Disbursement - February 2026",
+    "type": "Payout",
+    "date": "2026-02-28",
+    "amount": 840000,
+    "status": "completed"
+  },
+  {
+    "id": "txn_014",
+    "fundName": "Vercel Pro - Hosting & Deployment",
+    "type": "Recurring",
+    "date": "2026-02-25",
+    "amount": 8500,
+    "status": "completed"
+  },
+  {
+    "id": "txn_015",
+    "fundName": "Client Invoice - Bharat Payments Network",
+    "type": "Invoice",
+    "date": "2026-02-20",
+    "amount": 290000,
+    "status": "completed"
+  },
+  {
+    "id": "txn_016",
+    "fundName": "Slack Business+ - Team Communication",
+    "type": "Recurring",
+    "date": "2026-02-15",
+    "amount": 32000,
+    "status": "completed"
+  },
+  {
+    "id": "txn_017",
+    "fundName": "LinkedIn Ads - Recruitment Marketing",
+    "type": "Payout",
+    "date": "2026-02-10",
+    "amount": 65000,
+    "status": "completed"
+  },
+  {
+    "id": "txn_018",
+    "fundName": "Chartered Accountant - Audit Fees",
+    "type": "Payout",
+    "date": "2026-02-05",
+    "amount": 75000,
+    "status": "completed"
+  },
+  {
+    "id": "txn_019",
+    "fundName": "Client Invoice - GlobalTrade Exports",
+    "type": "Invoice",
+    "date": "2026-01-28",
+    "amount": 520000,
+    "status": "completed"
+  },
+  {
+    "id": "txn_020",
+    "fundName": "TDS Payment - Q3 FY26",
+    "type": "Payout",
+    "date": "2026-01-15",
+    "amount": 118000,
+    "status": "completed"
+  }
+]
